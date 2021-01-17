@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Everyone\'s DJ</string>
+    <string name="hello_world">Salut, lume!</string>
+    <string name="action_settings">Setari</string>
+    <string name="connect_manually">Conecteaza manual</string>
+    <string name="scan_network">Scanare retea</string>
+    <string name="edj_logo">EDJ logo</string>
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="wifi_disabled">Wi-Fi este dezactivat! Scanarea retelei este indisponibila.</string>
+    <string name="wifi_disconnected">Wi-Fi este dezactivat. Va rugam sa va conectati la retea.</string>
+    <string name="scanning">Se scaneaza reteaua</string>
+    <string name="title_activity_connect">ConnectActivity</string>
+    <string name="hostname_ip">Nume gazda/IP</string>
+    <string name="connect">Conectare</string>
+    <string name="connectbtn">Conectare</string>
+    <string name="ok">OK</string>
+    <string name="error">Eroare</string>
+    <string name="net_com_err">Eroare de comunicare in retea</string>
+    <string name="unknown_host">Hostul este offline</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="network_unavail">Conexiunea in retea nu a fost initializata</string>
+    <string name="skip">SARI</string>
+    <string name="skipwelcome">Sari</string>
+    <string name="player_should_be_updated">Eroare aplicatie! Poate trebuie sa upgradati player-ul.</string>
+    <string name="network_error">Eroare de retea. Asigurati-va ca inca sunteti conectat la player.</string>
+    <string name="no_banner">Nu exista un banner de bun-venit</string>
+    <string name="title_activity_playlist">PlaylistActivity</string>
+    <string name="playlist_retrieval_error">Nu s-a putut descarca playlist-ul</string>
+    <string name="song_fetch_error">Nu se poate descarca preview-ul melodiei</string>
+    <string name="cache_dir_error">Nu s-a putut scrie in directorul Cache!</string>
+    <string name="could_not_play_song">Nu s-a putut reda melodia! Format incompatibil!</string>
+    <string name="vote_this_song">Voteaza melodia!</string>
+    <string name="disconnected">Deconectat de la player</string>
+    <string name="select_a_song_first">Trebuie sa selectati o melodie intai!</string>
+    <string name="wait_5_min">Trebuie sa asteptati 5 minute inainte sa votati din nou!</string>
+    <string name="could_not_vote">Eroare la votare!</string>
+    <string name="vote_again_5">Ati votat cu succes! Puteti vota din nou in 5 minute!</string>
+    <string name="voted">Votat</string>
+    <string name="ok2">OK</string>
+    <string name="mp3_fetching">Nu s-a putut descarca preview-ul MP3-ului</string>
+    <string name="searchdotdotdot">Cautare...</string>
+    <string name="playing_star">"*SE REDA* "</string>
+
+</resources>

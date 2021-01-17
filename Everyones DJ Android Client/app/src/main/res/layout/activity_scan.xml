@@ -1,0 +1,50 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#cccccc"
+    android:weightSum="1"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/banner"
+        android:contentDescription="@string/edj_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scanWrapper"
+        android:layout_marginTop="5dp">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar3"
+            android:layout_weight="0.2"
+            android:indeterminate="true"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/scanning"
+            android:id="@+id/textView"
+            android:layout_weight="0.8"
+            android:textColor="@color/edjpurple"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/hostList" />
+
+</LinearLayout>

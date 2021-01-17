@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Everyone\'s DJ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="connect_manually">Connect manually</string>
+    <string name="scan_network">Scan Network</string>
+    <string name="edj_logo">EDJ logo</string>
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="wifi_disabled">Wi-Fi is disabled! Scanning not available.</string>
+    <string name="wifi_disconnected">Wi-Fi is disconnected! Please connect to a network.</string>
+    <string name="scanning">Scanning network</string>
+    <string name="title_activity_connect">ConnectActivity</string>
+    <string name="hostname_ip">Hostname/IP:</string>
+    <string name="connect">Connect</string>
+    <string name="connectbtn">Connect</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="net_com_err">Network communication error!</string>
+    <string name="unknown_host">The host you tried to connect to is offline!</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="network_unavail">The network connection hasn\'t been initialised.</string>
+    <string name="skip">SKIP</string>
+    <string name="skipwelcome">Skip</string>
+    <string name="player_should_be_updated">App error! The player/server should be updated!</string>
+    <string name="network_error">Network error! Are you still connected to the player?</string>
+    <string name="no_banner">No welcome banner available</string>
+    <string name="title_activity_playlist">PlaylistActivity</string>
+    <string name="playlist_retrieval_error">Playlist retrieval error!</string>
+    <string name="song_fetch_error">Can\'t fetch song preview from player!</string>
+    <string name="cache_dir_error">Can\'t write to cache directory! Check your phone!</string>
+    <string name="could_not_play_song">Could not play song! Incompatible sound format!</string>
+    <string name="vote_this_song">Vote this song!</string>
+    <string name="disconnected">Disconnected from player!</string>
+    <string name="select_a_song_first">You must select a song first!</string>
+    <string name="wait_5_min">You must wait 5 minutes before you can vote again!</string>
+    <string name="could_not_vote">Error! Could not vote!</string>
+    <string name="vote_again_5">You have voted successfully! You can vote again in 5 minutes!</string>
+    <string name="voted">Voted</string>
+    <string name="ok2">OK</string>
+    <string name="mp3_fetching">MP3 preview fetching error</string>
+    <string name="searchdotdotdot">Search...</string>
+    <string name="playing_star">"*PLAYING* "</string>
+
+</resources>

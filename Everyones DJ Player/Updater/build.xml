@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Everyone's_DJ_Player_Updater" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Everyone's DJ Player Updater.</description>
+    <import file="nbproject/build-impl.xml"/>
+    
+    <target name="-post-jar">
+        <jar jarfile="../Output/launch.jar">
+            <zipfileset src="${dist.jar}" excludes="META-INF/*" />
+            <zipfileset src="../Common Libraries/dist/Common_Libraries.jar" excludes="META-INF/*" />
+        <manifest>
+            <attribute name="Main-Class" value="edp.updater.Main"/>
+        </manifest>
+        </jar>
+    </target>
+    
+</project>

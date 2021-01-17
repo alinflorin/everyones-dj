@@ -1,0 +1,54 @@
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#cccccc"
+    android:weightSum="1"
+    android:id="@+id/startBck"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivBanner"
+        android:src="@drawable/banner"
+        android:contentDescription="@string/edj_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_network"
+            android:id="@+id/btnScan"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/edjpurple"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:enabled="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect_manually"
+            android:id="@+id/btnConnect"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/edjpurple"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:enabled="true" />
+    </LinearLayout>
+
+</RelativeLayout>

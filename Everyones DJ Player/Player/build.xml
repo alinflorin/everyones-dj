@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Everyone's_DJ_Player" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Everyone's DJ Player.</description>
+    <import file="nbproject/build-impl.xml"/>
+
+    <target name="-post-jar">
+        <jar jarfile="../Output/player.jar">
+            <zipfileset src="${dist.jar}" excludes="META-INF/*" />
+            <zipfileset src="lib/basicplayer3.0.jar" excludes="META-INF/*" />
+            <zipfileset src="lib/commons-logging-1.2.jar" excludes="META-INF/*" />
+            <zipfileset src="lib/jl1.0.1.jar" excludes="META-INF/*" />
+            <zipfileset src="lib/mp3spi1.9.5.jar" excludes="META-INF/*" />
+            <zipfileset src="lib/tritonus_share.jar" excludes="META-INF/*" />
+            <zipfileset src="../Common Libraries/dist/Common_Libraries.jar" excludes="META-INF/*" />
+        <manifest>
+            <attribute name="Main-Class" value="edp.player.Main"/>
+        </manifest>
+        </jar>
+        <copy file="../Configs/settings.edp" flatten="true" todir="../Output/"/> 
+    </target>
+    
+</project>

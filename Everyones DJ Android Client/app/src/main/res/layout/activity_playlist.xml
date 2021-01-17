@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="ro.qoffice.everyonesdj.activity.PlaylistActivity"
+    android:background="#cccccc"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/playlist"
+        tools:listitem="@android:layout/simple_list_item_1"
+        android:choiceMode="singleChoice"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/list_selector"
+        android:layout_weight="20" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/vote_this_song"
+        android:id="@+id/btnVote"
+        android:background="@color/edjpurple"
+        android:textColor="#ffffffff"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:enabled="true"
+        android:layout_weight="80" />
+
+</LinearLayout>

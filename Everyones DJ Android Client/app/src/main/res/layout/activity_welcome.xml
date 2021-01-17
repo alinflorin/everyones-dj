@@ -1,0 +1,42 @@
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#cccccc"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/img"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/welcome" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="@string/skipwelcome"
+        android:id="@+id/btnSkip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/edjpurple"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Long press song to preview!"
+        android:id="@+id/txtHelp"
+        android:layout_alignTop="@+id/btnSkip"
+        android:layout_toStartOf="@+id/btnSkip"
+        android:padding="5dp"
+        android:textColor="#ff000000"
+        android:layout_toLeftOf="@+id/btnSkip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
